@@ -37,16 +37,17 @@ STATE = os.path.join(os.getcwd(), "gt_farm_state_w%d.json" % WORKER)
 # ── CANDIDATE SEEDS ─────────────────────────────────────────────────────────
 BRANDS = ["iishko", "alstack", "teleraptor", "gothide", "apodex", "keyfarm",
           "darkharvest", "blastmail", "gothtech", "reformx"]
-BASES = ["reform", "goth", "ghost", "phantom", "cyber", "hack", "breach", "proxy",
-         "farm", "relay", "orca", "neon", "void", "flux", "nova", "pulse",
-         "quantum", "zero", "omega", "delta", "sigma", "titan", "hyper", "meta",
-         "ultra", "mega", "shadow", "storm", "blade", "frost", "ember", "venom",
-         "rogue", "drift", "echo", "onyx", "raven", "wolf", "viper", "crypt",
-         "node", "stack", "forge", "beacon", "harbor", "summit", "vertex",
-         "zenith", "matrix", "vector", "cipher", "daemon", "kernel", "socket",
-         "packet", "binary", "logic", "syntax", "tensor", "neural", "synth"]
-SUFFIX = ["", "hub", "lab", "labs", "dev", "pro", "ai", "net", "zone", "base",
-          "core", "works", "ops", "sys", "x", "2026", "hq", "one", "plus", "max"]
+BASES = ["reform", "goth", "ghost", "phantom", "cyber", "hack", "breach", "proxy", "farm",
+         "apigate", "relay", "solora", "orca", "neon", "void", "flux", "nova", "pulse",
+         "quantum", "zero", "omega", "delta", "sigma", "titan", "hyper", "meta", "ultra",
+         "mega", "shadow", "storm", "blade", "frost", "ember", "venom", "rogue", "drift",
+         "echo", "onyx", "raven", "wolf", "viper", "crypt", "node", "stack", "forge",
+         "beacon", "harbor", "summit", "vertex", "zenith", "matrix", "vector", "cipher",
+         "daemon", "kernel", "socket", "packet", "binary", "logic", "syntax", "tensor",
+         "neural", "synth", "botanic", "mecha", "astro", "cosmo", "lunar", "solar", "stellar",
+         "astro", "lunar", "solar", "stellar", "orbit", "comet", "nebula", "galaxy", "cosmos", "rocket", "saturn", "polar", "arctic", "tundra", "jungle", "safari", "panda", "tiger", "lion", "eagle", "falcon", "hawk", "shark", "whale", "dolphin", "cobra", "spider", "scorpion", "dragon", "phoenix", "griffin", "knight", "samurai", "ninja", "pirate", "viking", "sparta", "atlantis", "olympus", "valhalla", "eden", "crimson", "scarlet", "azure", "cobalt", "indigo", "violet", "amber", "golden", "silver", "platinum", "copper", "bronze", "steel", "chrome", "carbon", "graphite", "plasma", "photon", "electron", "proton", "neutron", "atom", "fusion", "reactor", "turbine", "engine", "boost", "launch", "sprint", "legend", "epic", "mythic", "hero", "icon", "star", "power", "force", "energy", "voltage", "circuit", "signal", "kinetic", "dynamic", "atomic", "laser", "optic", "prism", "spectrum", "radius", "axis", "apex", "prime", "alpha", "beta", "gamma", "theta", "lambda"]
+SUFFIX = ["", "hub", "lab", "labs", "dev", "pro", "ai", "net", "zone", "base", "core",
+          "works", "ops", "sys", "x", "2026", "hq", "one", "plus", "max", "ly", "ify", "io", "app", "gg", "gen", "bot", "way", "link", "spot"]
 CANDIDATES = BRANDS[:]
 for b in BASES:
     for sfx in SUFFIX:
