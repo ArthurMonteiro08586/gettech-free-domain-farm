@@ -4,17 +4,19 @@
 
 **Промо-код:** `hacktoberfestd0b8o5` — «One year free .tech domain», скидка 12.99 = полная цена года, к оплате $0. Купон работает 1 раз на аккаунт → масс-фарм = 1 аккаунт на домен.
 
-**Пруф (2026-10-18):** 7 доменов заказано подряд с одного IP, все с `discount: 12.99`, оплата $0:
+**Пруф (2026-10-18):** 9 доменов заказано подряд с одного IP, все с `discount: 12.99`, оплата $0:
 
-| Домен | Invoice ID | Статус |
-|---|---|---|
-| reformboss.tech | 144667507 | PendingExecution → активация |
-| gothbreach.tech | 144673571 | OK |
-| teleraptor.tech | 144676214 | OK |
-| iishko.tech | (в банке) | OK |
-| gothide.tech | 144676308 | OK |
-| reformgang.tech | 144676504 | OK |
-| alstack.tech | — | 504-storm → восстановлен свипером |
+| Домен | Invoice ID |
+|---|---|
+| reformboss.tech | 144667507 |
+| gothbreach.tech | 144673571 |
+| teleraptor.tech | 144676214 |
+| iishko.tech | (cart-verified) |
+| gothide.tech | 144676308 |
+| reformgang.tech | 144676504 |
+| keyfarm.tech | 144676576 |
+| darkharvest.tech | 144676655 |
+| hermeseni.tech | 144676803 |
 
 ---
 
