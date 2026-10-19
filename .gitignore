@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*$py.class
+gt_bank.jsonl
+gt_farm_state_*.json
+*.log
+.env
+*.env
+mails.txt
+GT_MAILS_FILE
+venv/
+.venv/
+env/
+.vscode/
+.idea/
+*.swp
+.DS_Store
